@@ -1,0 +1,11 @@
+.container{
+    width: 1127px;
+    margin: 0 auto;
+}
+
+@import "reset";
+@import "variables";
+@import "./components/header";
+@import "./components/main";
+@import "./components/product";
+@import "./components/footer";

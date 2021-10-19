@@ -1,0 +1,53 @@
+.main {
+    font-family: Georama;
+    background: $lightgray;
+    padding-bottom: 130px;
+
+    &__info {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title {
+        width: 280px;
+        margin: 55px 0 0 30px;
+    }
+
+    &__glass {
+        width: 650px;
+    }
+
+    &__titleText {
+        font-weight: bold;
+        font-size: 35px;
+        margin-left: 15px;
+    }
+
+    &__button {
+        width: 171px;
+        padding: 17px;
+        color: $blue;
+        font-weight: bold;
+        border: 2px solid $blue;
+        text-align: center;
+        outline: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    &__button:hover {   
+        background-color: $blue;
+        color: #fff;
+    }
+
+    &__text {
+        line-height: 1.7;
+        margin: 25px 0 35px;
+    }
+
+    &__details {
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 115px;
+    }
+}

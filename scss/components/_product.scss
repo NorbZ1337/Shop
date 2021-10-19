@@ -1,0 +1,31 @@
+.product{
+    font-family: Georama;
+    padding: 55px 0 75px;
+
+    &__photo {
+        width: 250px;
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__card {
+        background: $gray;
+        width: 250px;
+        padding: 47px 31px;
+        margin: 13px;
+    }
+
+    &__basic {
+        display: flex;
+        justify-content: space-around;
+        padding: 80px 0 5px;
+    }
+
+    &__title {
+        font-weight: 300;
+        font-size: 14px;
+        padding-left: 27px;
+    }
+}

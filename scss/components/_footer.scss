@@ -1,0 +1,14 @@
+.footer {
+    color: $blue;
+    font-family: Georama;
+    padding-bottom: 50px;
+
+    &__block {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__socialText {
+        margin-right: 8px;
+    }
+}

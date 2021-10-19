@@ -1,0 +1,46 @@
+.header {
+    background: $lightgray;
+    padding-top: 20px;
+    font-family: Georama;
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__border {
+        border-bottom: 2px solid $black;
+        width: 24px;
+        margin-top: 4px;
+    }
+
+    &__border:nth-child(2) {
+        width: 17px;
+    }
+
+    &__border:nth-child(3) {
+        width: 13px;
+    }
+
+    &__logo {
+        width: 150px;
+    }
+
+    &__butLeft {
+        margin-left: -230px;
+
+    }
+
+    &__butRight {
+        margin-right: -230px;
+        font-weight: bold;
+    }
+
+    &__butRight, &__butLeft, &__butSubRight {
+        margin-top: 6px;
+    }
+
+    &__butSubRight {
+        font-weight: bold;
+    }
+}
